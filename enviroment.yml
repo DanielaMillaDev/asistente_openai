@@ -1,0 +1,13 @@
+name: flask-server
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.8
+  - flask
+  - flask-socketio
+  - python-dotenv
+  - pymongo
+  - gevent
+  - openai
